@@ -1,0 +1,120 @@
+div {
+  /* background-color: beige; */
+}
+
+.tile{
+  /* height: 200px; */
+  /* width: 50%; */
+  background-color: tomato;
+  margin: 20px;
+  border: 3px solid red;
+  padding: 30px;
+  display: inline-block;
+  border-style: ridge;
+  border-radius: 5px;
+}
+
+#tile1 {
+  /* background-color: gray; */
+  /* background-image: url(../images/office_building.jpeg); */
+  /* background-repeat: no-repeat; */
+  /* background-position: 50%; */
+  /* background-attachment: scroll; scrollはデフォルト*/ 
+  /* background-attachment: fixed; fixedは画像を固定する */
+  
+  background: url(../images/office_building.jpeg) no-repeat 0px;
+  background-size: cover;
+  margin: 30px
+}
+
+#tile2 {
+  background-color: pink;
+}
+
+#tile3 {
+  background-color: yellow;
+}
+
+#tile4 {
+  background-color: red;
+}
+
+#tile5 {
+  background-color: black;
+}
+
+#tile6 {
+  background-color: blue;
+}
+
+div p {
+  background-color: gold;
+}
+
+div .inner_tile {
+  background-color: indigo;
+  height: 20px;
+  width: 20px;
+}
+
+#company_header {
+  color: maroon;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: none;
+  text-decoration: overline;
+  text-align: center;
+  text-shadow: 7px 2px 0px pink;
+  letter-spacing: 2px;
+  word-spacing: 0px;
+}
+
+  a {
+    text-decoration: none;
+  }
+
+
+h2 {
+  font-weight: normal;
+  text-indent: 0px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul > li {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style: url("../images/blue_dot\ \(1\).png") circle outside;
+}
+
+
+
+#container {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  background-color: beige;
+}
+
+img {
+  width: 100%;
+}
+
+table {
+  empty-cells: hide;
+  border-collapse: collapse;
+  /* border-spacing: 3px 5px; */
+}
+
+/* タグの色がカーソルを当てると変わる */
+a:hover {
+  color: violet;
+  background-color: blue;
+}
+/* フォーム中の枠が黄色になった */
+#firstname:focus {
+  background-color: yellow;
+}
